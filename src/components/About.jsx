@@ -4,12 +4,12 @@ import { FiCode, FiCpu, FiZap, FiBriefcase, FiUsers, FiTrendingUp } from 'react-
 
 const About = () => {
     const features = [
-        { title: 'Web Development', icon: <FiCode size={24} className="text-accent" /> },
+        { title: 'Full Stack Development', icon: <FiCode size={24} className="text-accent" /> },
         { title: 'Problem Solving', icon: <FiZap size={24} className="text-accent" /> },
-        { title: 'Modern Technologies', icon: <FiCpu size={24} className="text-accent" /> },
-        { title: 'Project Management', icon: <FiBriefcase size={24} className="text-accent" /> },
+        { title: 'Artificial Intelligence', icon: <FiCpu size={24} className="text-accent" /> },
+        { title: 'Project Development', icon: <FiBriefcase size={24} className="text-accent" /> },
         { title: 'Leadership', icon: <FiUsers size={24} className="text-accent" /> },
-        { title: 'Research & Innovation', icon: <FiTrendingUp size={24} className="text-accent" /> }
+        { title: 'Innovation', icon: <FiTrendingUp size={24} className="text-accent" /> }
     ];
 
     return (
@@ -55,9 +55,6 @@ const About = () => {
                         <div className="text-lg leading-relaxed mb-8 text-center lg:text-left space-y-4">
                             <p>
                                 I am a driven technologist currently pursuing my <span className="text-white font-medium">B.E. in Computer Science Engineering</span> in the vibrant tech hub of Bengaluru. With a deep passion for innovation and solving real-world problems, I continuously strive to push the boundaries of what code can achieve.
-                            </p>
-                            <p>
-                                At present, I have the privilege of leading the R&D and technical team at <span className="text-blue-400 font-medium">Vayu Aarambh Innovations</span>. In this role, I bridge the critical gap between complex engineering challenges and elegant, practical software solutions—transforming ambitious ideas into impactful realities.
                             </p>
                         </div>
 
