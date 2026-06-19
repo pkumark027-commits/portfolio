@@ -49,7 +49,7 @@ const Projects = () => {
                 "Optimizing the React frontend to handle state efficiently when filtering through large volumes of tickets.",
                 "Creating a completely responsive and accessible dashboard experience across all device sizes."
             ],
-            githubUrl: "#",
+            githubUrl: "https://github.com/Akhilesh6803-AM/Smart-HelpDesk-System",
             demoUrl: "#"
         },
         {
@@ -75,7 +75,7 @@ const Projects = () => {
                 "Translating complex machine learning outputs into easily understandable UI components for end-users.",
                 "Deploying heavy PyTorch/Transformer models in a lightweight Flask environment."
             ],
-            githubUrl: "#",
+            githubUrl: "https://github.com/Akhilesh6803-AM/Cyberbullying-Detection",
             demoUrl: "#"
         },
         {
