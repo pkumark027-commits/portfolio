@@ -54,7 +54,7 @@ const About = () => {
                     >
                         <div className="text-lg leading-relaxed mb-8 text-center lg:text-left space-y-4">
                             <p>
-                                I am a driven technologist currently pursuing my <span className="text-white font-medium">B.E. in Computer Science Engineering</span> in the vibrant tech hub of Bengaluru. With a deep passion for innovation and solving real-world problems, I continuously strive to push the boundaries of what code can achieve.
+                                I am a driven technologist currently pursuing my <span className="text-white font-medium">B.E. in Computer Science Engineering</span>. With a deep passion for innovation and solving real-world problems, I continuously strive to push the boundaries of what code can achieve.
                             </p>
                         </div>
 
