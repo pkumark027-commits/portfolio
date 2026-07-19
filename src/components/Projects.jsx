@@ -50,7 +50,7 @@ const Projects = () => {
                 "Creating a completely responsive and accessible dashboard experience across all device sizes."
             ],
             githubUrl: "https://github.com/Akhilesh6803-AM/Smart-HelpDesk-System",
-            demoUrl: "#"
+            demoUrl: "https://smart-helpdesk-system.vercel.app/"
         },
         {
             title: "Fine-Grained Cyberbullying Detection",
@@ -76,7 +76,7 @@ const Projects = () => {
                 "Deploying heavy PyTorch/Transformer models in a lightweight Flask environment."
             ],
             githubUrl: "https://github.com/Akhilesh6803-AM/Cyberbullying-Detection",
-            demoUrl: "#"
+            demoUrl: "https://cyberbullying-detection-ttjv.onrender.com/"
         },
         {
             title: "Personal Portfolio Website",
@@ -126,7 +126,7 @@ const Projects = () => {
                 "Structuring the application to allow for easy future integration with a real backend payment processor."
             ],
             githubUrl: "https://github.com/Akhilesh6803-AM/E-Commerce",
-            demoUrl: "#"
+            demoUrl: "https://v0-ak-e-commerce.vercel.app/"
         }
     ];
 

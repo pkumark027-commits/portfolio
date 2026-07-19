@@ -63,7 +63,8 @@ const About = () => {
                             <p className="text-slate-400 text-center lg:text-left">
                                 B.E. in Computer Science Engineering <br />
                                 AMC Engineering College, Bengaluru <br />
-                                2022 – 2026
+                                2022 – 2026 <br />
+                                <span className="text-blue-400 font-semibold">CGPA: 8.39/10</span>
                             </p>
                         </div>
 

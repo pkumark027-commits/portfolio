@@ -4,9 +4,10 @@ import { motion } from 'framer-motion';
 const Experience = () => {
     const experiences = [
         {
-            title: "Internship",
-            company: "Smart Help Desk System Development",
-            description: "Completed an intensive internship focusing on the development of a full-stack AI-powered platform. Engineered a Smart Help Desk System for educational institutions, gaining hands-on experience with modern web technologies and integrating Gemini AI for intelligent automation.",
+            title: "Full Stack Web Development Intern",
+            company: "SuprMentr Technologies",
+            duration: "Feb 2026 – May 2026",
+            description: "Developed 10+ responsive frontend interfaces/components using React.js, integrating them with backend services. Built and consumed RESTful APIs using Node.js, Express.js, and MongoDB for full-stack application development. Collaborated with a 3-member Agile team using Git for version control, contributing to sprint-based feature development and timely project delivery. Debugged and optimized frontend and backend modules, improving application reliability and maintainability.",
             color: "purple"
         },
         {
@@ -56,6 +57,11 @@ const Experience = () => {
                                             {exp.company}
                                         </p>
                                     </div>
+                                    {exp.duration && (
+                                        <span className="text-sm font-semibold text-slate-400 bg-white/5 border border-white/10 px-3 py-1 rounded-full shrink-0 self-start md:self-auto">
+                                            {exp.duration}
+                                        </span>
+                                    )}
                                 </div>
                                 <p className="text-slate-300 leading-relaxed text-base mt-4">
                                     {exp.description}
