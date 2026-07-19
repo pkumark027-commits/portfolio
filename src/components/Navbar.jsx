@@ -49,8 +49,13 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-20">
                     <div className="flex-shrink-0">
-                        <a href="#home" onClick={(e) => handleScroll(e, '#home')} className="text-xl font-bold text-white tracking-widest uppercase">
-                            AKHILESH <span className="text-blue-500 font-normal">A M</span>
+                        <a href="#home" onClick={(e) => handleScroll(e, '#home')} className="flex items-center gap-3 group">
+                            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-500 to-purple-500 flex items-center justify-center font-black text-white text-lg tracking-normal border border-white/20 shadow-md group-hover:shadow-[0_0_20px_rgba(59,130,246,0.4)] transition-all duration-300">
+                                AM
+                            </div>
+                            <span className="text-xl font-extrabold text-white tracking-widest uppercase group-hover:text-blue-400 transition-colors duration-300">
+                                AKHILESH
+                            </span>
                         </a>
                     </div>
 
