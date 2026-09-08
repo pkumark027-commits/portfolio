@@ -4,6 +4,19 @@ import { motion } from 'framer-motion';
 const Experience = () => {
     const experiences = [
         {
+            title: "Software Engineer",
+            company: "Vayu Aarambh Innovations Pvt. Ltd.",
+            duration: "Aug 2025 – Present",
+            description: "Leading technology development and implementation by exploring modern technologies to build robust software systems and web applications.",
+            highlights: [
+                "Driving software and web application development with a focus on technical excellence.",
+                "Directing Research & Development initiatives to adopt modern technologies for innovative solutions.",
+                "Making core technical decisions and leading complex technical problem-solving efforts.",
+                "Collaborating with team members to turn ideas and requirements into practical technical solutions."
+            ],
+            color: "teal"
+        },
+        {
             title: "Full Stack Web Development Intern",
             company: "SuprMentr Technologies",
             duration: "Feb 2026 – May 2026",
@@ -46,14 +59,14 @@ const Experience = () => {
                             className="relative pl-8 md:pl-12"
                         >
                             {/* Timeline Dot */}
-                            <div className={`absolute w-5 h-5 bg-[#0f172a] border-4 ${exp.color === 'blue' ? 'border-blue-500 shadow-[0_0_15px_rgba(59,130,246,0.5)]' : 'border-purple-500 shadow-[0_0_15px_rgba(168,85,247,0.5)]'} rounded-full -left-[11px] top-8`}></div>
+                            <div className={`absolute w-5 h-5 bg-[#0f172a] border-4 ${exp.color === 'blue' ? 'border-blue-500 shadow-[0_0_15px_rgba(59,130,246,0.5)]' : exp.color === 'teal' ? 'border-teal-400 shadow-[0_0_15px_rgba(45,212,191,0.5)]' : 'border-purple-500 shadow-[0_0_15px_rgba(168,85,247,0.5)]'} rounded-full -left-[11px] top-8`}></div>
 
                             {/* Experience Card */}
-                            <div className="glass-card relative rounded-3xl p-6 md:p-8 border border-white/10 bg-slate-900/40 backdrop-blur-md overflow-hidden hover:bg-slate-800/60 hover:-translate-y-1 hover:shadow-[0_10px_40px_-15px_rgba(59,130,246,0.2)] hover:border-blue-500/30 transition-all duration-300">
+                            <div className={`glass-card relative rounded-3xl p-6 md:p-8 border border-white/10 bg-slate-900/40 backdrop-blur-md overflow-hidden hover:bg-slate-800/60 hover:-translate-y-1 ${exp.color === 'blue' ? 'hover:shadow-[0_10px_40px_-15px_rgba(59,130,246,0.2)] hover:border-blue-500/30' : exp.color === 'teal' ? 'hover:shadow-[0_10px_40px_-15px_rgba(45,212,191,0.2)] hover:border-teal-400/30' : 'hover:shadow-[0_10px_40px_-15px_rgba(168,85,247,0.2)] hover:border-purple-500/30'} transition-all duration-300`}>
                                 <div className="flex flex-col md:flex-row md:items-start justify-between mb-4 gap-4">
                                     <div>
                                         <h3 className="text-2xl font-bold text-white tracking-wide">{exp.title}</h3>
-                                        <p className={`font-medium text-lg mt-1 ${exp.color === 'blue' ? 'text-blue-400' : 'text-purple-400'}`}>
+                                        <p className={`font-medium text-lg mt-1 ${exp.color === 'blue' ? 'text-blue-400' : exp.color === 'teal' ? 'text-teal-400' : 'text-purple-400'}`}>
                                             {exp.company}
                                         </p>
                                     </div>
@@ -63,9 +76,18 @@ const Experience = () => {
                                         </span>
                                     )}
                                 </div>
-                                <p className="text-slate-300 leading-relaxed text-base mt-4">
-                                    {exp.description}
-                                </p>
+                                {exp.description && (
+                                    <p className="text-slate-300 leading-relaxed text-base mt-4">
+                                        {exp.description}
+                                    </p>
+                                )}
+                                {exp.highlights && (
+                                    <ul className="list-disc list-outside text-slate-300 leading-relaxed text-base mt-4 ml-5 space-y-1.5">
+                                        {exp.highlights.map((highlight, i) => (
+                                            <li key={i}>{highlight}</li>
+                                        ))}
+                                    </ul>
+                                )}
                             </div>
                         </motion.div>
                     ))}
