@@ -100,8 +100,8 @@ const Projects = () => {
                 "Maintaining a strict, consistent visual hierarchy and color palette throughout the entire application.",
                 "Balancing high-end visual flair with strict web accessibility and high Lighthouse performance scores."
             ],
-            githubUrl: "#",
-            demoUrl: "https://akhilesham.vercel.app/"
+            githubUrl: "https://github.com/pkumark027-commits/portfolio",
+            demoUrl: "https://portfolio-omega-ashen-aqmn6qt238.vercel.app/"
         },
         {
             title: "Neobrutalism E-Commerce Platform",
