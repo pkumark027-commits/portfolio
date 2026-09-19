@@ -3,19 +3,7 @@ import { motion } from 'framer-motion';
 
 const Experience = () => {
     const experiences = [
-        {
-            title: "Software Engineer",
-            company: "Vayu Aarambh Innovations Pvt. Ltd.",
-            duration: "Aug 2025 – Present",
-            description: "Leading technology development and implementation by exploring modern technologies to build robust software systems and web applications.",
-            highlights: [
-                "Driving software and web application development with a focus on technical excellence.",
-                "Directing Research & Development initiatives to adopt modern technologies for innovative solutions.",
-                "Making core technical decisions and leading complex technical problem-solving efforts.",
-                "Collaborating with team members to turn ideas and requirements into practical technical solutions."
-            ],
-            color: "teal"
-        },
+        
         {
             title: "Full Stack Web Development Intern",
             company: "SuprMentr Technologies",

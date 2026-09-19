@@ -12,8 +12,8 @@ const Contact = () => {
 
         // Note: You will need to replace these with your actual EmailJS credentials
         emailjs
-            .sendForm('service_66lk84l', 'template_22a44ql', form.current, {
-                publicKey: 'Ak8mFh2RwjnQWxFTh',
+            .sendForm('service_7ss9isj', 'template_mhv1ibk', form.current, {
+                publicKey: '3uJohW77wHAGnlcps',
             })
             .then(
                 () => {
@@ -62,33 +62,33 @@ const Contact = () => {
                         </p>
 
                         <div className="space-y-6">
-                            <a href="mailto:akhileshamalhik@gmail.com" className="flex items-center gap-4 text-slate-400 hover:text-blue-400 transition-colors duration-300 group">
+                            <a href="mailto:pkumark027@gmail.com" className="flex items-center gap-4 text-slate-400 hover:text-blue-400 transition-colors duration-300 group">
                                 <div className="p-4 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full group-hover:bg-white/10 transition-colors">
                                     <FiMail size={24} />
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-white">Email</h4>
-                                    <span>akhileshamalhik@gmail.com</span>
+                                    <span>pkumark027@gmail.com</span>
                                 </div>
                             </a>
 
-                            <a href="https://github.com/Akhilesh6803-AM" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-slate-400 hover:text-blue-400 transition-colors duration-300 group">
+                            <a href="https://github.com/pkumark027-commits" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-slate-400 hover:text-blue-400 transition-colors duration-300 group">
                                 <div className="p-4 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full group-hover:bg-white/10 transition-colors">
                                     <FiGithub size={24} />
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-white">GitHub</h4>
-                                    <span>github.com/Akhilesh6803-AM</span>
+                                    <span>https://github.com/pkumark027-commits</span>
                                 </div>
                             </a>
 
-                            <a href="https://linkedin.com/in/akhilesh-a-m-akhil/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-slate-400 hover:text-blue-400 transition-colors duration-300 group">
+                            <a href="https://www.linkedin.com/in/pavan-kumar-k-bb6983267/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-slate-400 hover:text-blue-400 transition-colors duration-300 group">
                                 <div className="p-4 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full group-hover:bg-white/10 transition-colors">
                                     <FiLinkedin size={24} />
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-white">LinkedIn</h4>
-                                    <span>linkedin.com/in/akhilesh-a-m-akhil/</span>
+                                    <span>linkedin.com/in/pavan-kumar-k-bb6983267/</span>
                                 </div>
                             </a>
                         </div>

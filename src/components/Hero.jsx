@@ -36,8 +36,8 @@ const Hero = () => {
                             {/* Image container inner mask */}
                             <div className="absolute inset-1.5 md:inset-2 rounded-full overflow-hidden border border-white/20 bg-white/5 backdrop-blur-xl z-10 shadow-[0_0_60px_rgba(59,130,246,0.2)]">
                                 <img
-                                    src="/akhilesh.jpg"
-                                    alt="Akhilesh A M"
+                                    src="/pavan.jpeg"
+                                    alt="Pavan kumar k"
                                     className="object-cover w-full h-full hover:scale-110 transition-transform duration-500 opacity-90"
                                 />
                             </div>
@@ -59,7 +59,7 @@ const Hero = () => {
                             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
                             className="hero-name text-5xl md:text-7xl font-bold text-white mb-4 leading-tight tracking-tight"
                         >
-                            Akhilesh A M
+                            Pavan kumar k
                         </motion.h1>
                         <motion.div
                             initial={{ opacity: 0, y: 30 }}

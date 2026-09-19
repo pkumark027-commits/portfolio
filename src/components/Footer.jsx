@@ -8,19 +8,19 @@ const Footer = () => {
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4">
 
                     <div className="text-slate-400 text-sm">
-                        © 2026 Akhilesh A M. All rights reserved.
+                        © 2026 Pavan kumar k. All rights reserved.
                     </div>
 
                     <div className="flex space-x-6">
-                        <a href="https://github.com/Akhilesh6803-AM" className="text-slate-400 hover:text-blue-400 transition-colors duration-300">
+                        <a href="https://github.com/pkumark027-commits" className="text-slate-400 hover:text-blue-400 transition-colors duration-300">
                             <span className="sr-only">GitHub</span>
                             <FiGithub size={20} />
                         </a>
-                        <a href="https://linkedin.com/in/akhilesh-a-m-akhil/" className="text-slate-400 hover:text-blue-400 transition-colors duration-300">
+                        <a href="https://www.linkedin.com/in/pavan-kumar-k-bb6983267/" className="text-slate-400 hover:text-blue-400 transition-colors duration-300">
                             <span className="sr-only">LinkedIn</span>
                             <FiLinkedin size={20} />
                         </a>
-                        <a href="mailto:akhileshamalhik@gmail.com" className="text-slate-400 hover:text-blue-400 transition-colors duration-300">
+                        <a href="mailto:pkumark027@gmail.com" className="text-slate-400 hover:text-blue-400 transition-colors duration-300">
                             <span className="sr-only">Email</span>
                             <FiMail size={20} />
                         </a>
