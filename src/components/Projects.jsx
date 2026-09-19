@@ -49,7 +49,7 @@ const Projects = () => {
                 "Optimizing the React frontend to handle state efficiently when filtering through large volumes of tickets.",
                 "Creating a completely responsive and accessible dashboard experience across all device sizes."
             ],
-            githubUrl: "https://github.com/Akhilesh6803-AM/Smart-HelpDesk-System",
+            githubUrl: "https://github.com/pkumark027-commits",
             demoUrl: "https://smart-helpdesk-system.vercel.app/"
         },
         {
