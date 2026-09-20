@@ -54,7 +54,7 @@ const Navbar = () => {
                                 PK
                             </div>
                             <span className="text-xl font-extrabold text-white tracking-widest uppercase group-hover:text-blue-400 transition-colors duration-300">
-                                PAVAN KUMAR K
+                                Pavan Kumar K
                             </span>
                         </a>
                     </div>

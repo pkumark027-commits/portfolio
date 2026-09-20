@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4">
 
                     <div className="text-slate-400 text-sm">
-                        © 2026 Pavan kumar k. All rights reserved.
+                        © 2026 Pavan Kumar K. All rights reserved.
                     </div>
 
                     <div className="flex space-x-6">

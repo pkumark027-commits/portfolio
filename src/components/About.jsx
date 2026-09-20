@@ -39,7 +39,7 @@ const About = () => {
                         <div className="relative w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-[420px] lg:h-[420px] rounded-3xl overflow-hidden p-2 glass-card shrink-0">
                             <img
                                 src="/pavan.jpeg"
-                                alt="Pavan kumar k"
+                                alt="Pavan Kumar K"
                                 className="object-cover w-full h-full rounded-2xl hover:scale-105 transition-transform duration-500"
                             />
                         </div>
@@ -54,7 +54,7 @@ const About = () => {
                     >
                         <div className="text-lg leading-relaxed mb-8 text-center lg:text-left space-y-4">
                             <p>
-                               I am a driven technologist and <span className="text-white font-medium">B.E. graduate in Artificial Intelligence and Machine Learning</span>. with a deep passion for innovation and solving real-world problems. I continuously strive to push the boundaries of what technology and code can achieve. As a Software Developer with practical industry experience since August 2025, I focus on building impactful, scalable, and technology-driven solutions while continuously expanding my expertise in AI, software development, and modern web technologies.
+                                I am a driven technologist and <span className="text-white font-medium">B.E. graduate in Artificial Intelligence and Machine Learning</span> with a deep passion for innovation and solving real-world problems. I continuously strive to push the boundaries of what technology and code can achieve. As a software developer with practical industry experience since August 2025, I focus on building impactful, scalable, and technology-driven solutions while expanding my expertise in AI, software development, and modern web technologies.
                             </p>
                         </div>
 
