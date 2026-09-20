@@ -49,7 +49,7 @@ const Projects = () => {
                 "Optimizing the React frontend to handle state efficiently when filtering through large volumes of tickets.",
                 "Creating a completely responsive and accessible dashboard experience across all device sizes."
             ],
-            githubUrl: "https://github.com/pkumark027-commits",
+
             demoUrl: "https://smart-helpdesk-system.vercel.app/"
         },
         {
@@ -75,7 +75,7 @@ const Projects = () => {
                 "Translating complex machine learning outputs into easily understandable UI components for end-users.",
                 "Deploying heavy PyTorch/Transformer models in a lightweight Flask environment."
             ],
-            githubUrl: "https://github.com/pkumark027-commits/cyber-bulling",
+            
             demoUrl: "https://cyberbullying-detection-ttjv.onrender.com/"
         },
         {
@@ -125,7 +125,7 @@ const Projects = () => {
                 "Managing complex responsive layouts where bold, oversized typography could easily break the container boundaries.",
                 "Structuring the application to allow for easy future integration with a real backend payment processor."
             ],
-            githubUrl: "https://github.com/pkumark027-commits/e-commerce",
+           
             demoUrl: "https://v0-ak-e-commerce.vercel.app/"
         }
     ];
